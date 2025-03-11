@@ -1,27 +1,26 @@
 import pygame
-from utils.helpers import draw_text
 
-class GameScreen:
+class TestScreen:
     def __init__(self, state_manager):
         self.state_manager = state_manager
-
+        
     def enter(self):
-        print("Entered Game Screen")
-
+        print("Entered Test Screen")
+        
     def exit(self):
-        print("Exited Game Screen")
+        print("Exited Test Screen")
         
     def pause(self):
-        print("Game Screen Paused")
+        print("Test Screen Paused")
         
     def resume(self):
-        print("Game Screen Resumed")
-
+        print("Test Screen Resumed")
+        
     def handle_events(self, events):
         pass
     
     def update(self):
         pass
-
+    
     def render(self, screen):
         pass

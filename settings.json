@@ -2,5 +2,5 @@
     "music_volume": 5,
     "sfx_volume": 5,
     "difficulty": "Medium",
-    "fullscreen": true
+    "fullscreen": false
 }

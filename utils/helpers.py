@@ -35,3 +35,11 @@ def draw_button(screen, text, x, y, width, height, color, hover_color, text_colo
     screen.blit(text_surf, text_rect)
     
     return button_rect
+
+def draw_deck(screen, deck):
+    card_amount = len(deck)
+    y_pos = 200
+    
+    for i, card in enumerate(deck):
+        card.draw(screen, i, card_amount)
+    
